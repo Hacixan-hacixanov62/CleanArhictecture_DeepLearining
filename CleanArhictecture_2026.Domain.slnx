@@ -1,8 +1,11 @@
 <Solution>
   <Folder Name="/src/">
     <Project Path="CleanArhictecture_2026.Application/CleanArhictecture_2026.Application.csproj" />
+    <Project Path="CleanArhictecture_2026.Domain.AppHost/CleanArhictecture_2026.Domain.AppHost.csproj" Id="fc5eaad2-9fb4-443c-919c-67d366f73511" />
+    <Project Path="CleanArhictecture_2026.Domain.ServiceDefaults/CleanArhictecture_2026.Domain.ServiceDefaults.csproj" />
     <Project Path="CleanArhictecture_2026.Domain/CleanArhictecture_2026.Domain.csproj" />
     <Project Path="CleanArhictecture_2026.Infrastructure/CleanArhictecture_2026.Infrastructure.csproj" Id="51613f89-af33-41f9-be0a-b8cf50446aae" />
+    <Project Path="CleanArhictecture_2026.WebAPI/CleanArhictecture_2026.WebAPI.csproj" />
   </Folder>
   <Folder Name="/test/" />
 </Solution>

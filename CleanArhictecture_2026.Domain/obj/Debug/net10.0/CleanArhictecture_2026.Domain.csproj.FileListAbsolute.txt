@@ -10,3 +10,4 @@ C:\Users\user\Desktop\CleanArhictecture_2026.Domain\CleanArhictecture_2026.Domai
 C:\Users\user\Desktop\CleanArhictecture_2026.Domain\CleanArhictecture_2026.Domain\obj\Debug\net10.0\refint\CleanArhictecture_2026.Domain.dll
 C:\Users\user\Desktop\CleanArhictecture_2026.Domain\CleanArhictecture_2026.Domain\obj\Debug\net10.0\CleanArhictecture_2026.Domain.pdb
 C:\Users\user\Desktop\CleanArhictecture_2026.Domain\CleanArhictecture_2026.Domain\obj\Debug\net10.0\ref\CleanArhictecture_2026.Domain.dll
+C:\Users\user\Desktop\CleanArhictecture_2026.Domain\CleanArhictecture_2026.Domain\obj\Debug\net10.0\CleanArhictecture_2026.Domain.sourcelink.json

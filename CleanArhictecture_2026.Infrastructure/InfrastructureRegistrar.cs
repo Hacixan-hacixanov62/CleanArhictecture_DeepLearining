@@ -4,6 +4,7 @@ using CleanArhictecture_2026.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Scrutor;
 
 namespace CleanArhictecture_2026.Infrastructure;
 
@@ -17,7 +18,14 @@ public static class InfrastructureRegistrar
             opt.UseSqlServer(connectionString);
         });
 
-        services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+        services.Scan(opt => opt
+        .FromAssemblies(typeof(InfrastructureRegistrar).Assembly)
+        .AddClasses(publicOnly: false)
+        .UsingRegistrationStrategy(RegistrationStrategy.Skip)
+        .AsImplementedInterfaces()
+        .WithScopedLifetime()
+        );
+
 
         return services;
     }

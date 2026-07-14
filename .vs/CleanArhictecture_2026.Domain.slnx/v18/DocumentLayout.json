@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{51613F89-AF33-41F9-BE0A-B8CF50446AAE}|CleanArhictecture_2026.Infrastructure\\CleanArhictecture_2026.Infrastructure.csproj|c:\\users\\user\\desktop\\cleanarhictecture_2026.domain\\cleanarhictecture_2026.infrastructure\\infrastructureregistrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51613F89-AF33-41F9-BE0A-B8CF50446AAE}|CleanArhictecture_2026.Infrastructure\\CleanArhictecture_2026.Infrastructure.csproj|solutionrelative:cleanarhictecture_2026.infrastructure\\infrastructureregistrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51613F89-AF33-41F9-BE0A-B8CF50446AAE}|CleanArhictecture_2026.Infrastructure\\CleanArhictecture_2026.Infrastructure.csproj|c:\\users\\user\\desktop\\cleanarhictecture_2026.domain\\cleanarhictecture_2026.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51613F89-AF33-41F9-BE0A-B8CF50446AAE}|CleanArhictecture_2026.Infrastructure\\CleanArhictecture_2026.Infrastructure.csproj|solutionrelative:cleanarhictecture_2026.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{612A27EA-1020-6F05-749D-FCD0A8707C10}|CleanArhictecture_2026.Application\\CleanArhictecture_2026.Application.csproj|c:\\users\\user\\desktop\\cleanarhictecture_2026.domain\\cleanarhictecture_2026.application\\employees\\employeegetallquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{612A27EA-1020-6F05-749D-FCD0A8707C10}|CleanArhictecture_2026.Application\\CleanArhictecture_2026.Application.csproj|solutionrelative:cleanarhictecture_2026.application\\employees\\employeegetallquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6AE21B9-4064-2187-3B7D-23DCBA2901B1}|CleanArhictecture_2026.WebAPI\\CleanArhictecture_2026.WebAPI.csproj|c:\\users\\user\\desktop\\cleanarhictecture_2026.domain\\cleanarhictecture_2026.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6AE21B9-4064-2187-3B7D-23DCBA2901B1}|CleanArhictecture_2026.WebAPI\\CleanArhictecture_2026.WebAPI.csproj|solutionrelative:cleanarhictecture_2026.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "InfrastructureRegistrar.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\CleanArhictecture_2026.Infrastructure\\InfrastructureRegistrar.cs",
-              "RelativeDocumentMoniker": "CleanArhictecture_2026.Infrastructure\\InfrastructureRegistrar.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\CleanArhictecture_2026.Infrastructure\\InfrastructureRegistrar.cs",
-              "RelativeToolTip": "CleanArhictecture_2026.Infrastructure\\InfrastructureRegistrar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAYAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\CleanArhictecture_2026.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "CleanArhictecture_2026.WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\CleanArhictecture_2026.WebAPI\\Program.cs",
+              "RelativeToolTip": "CleanArhictecture_2026.WebAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-14T16:59:02.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\CleanArhictecture_2026.Infrastructure\\Context\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "CleanArhictecture_2026.Infrastructure\\Context\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\CleanArhictecture_2026.Infrastructure\\Context\\ApplicationDbContext.cs",
-              "RelativeToolTip": "CleanArhictecture_2026.Infrastructure\\Context\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-14T16:48:13.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmployeeGetAllQuery.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\CleanArhictecture_2026.Application\\Employees\\EmployeeGetAllQuery.cs",
-              "RelativeDocumentMoniker": "CleanArhictecture_2026.Application\\Employees\\EmployeeGetAllQuery.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\CleanArhictecture_2026.Application\\Employees\\EmployeeGetAllQuery.cs",
-              "RelativeToolTip": "CleanArhictecture_2026.Application\\Employees\\EmployeeGetAllQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-14T16:15:45.715Z",
+              "WhenOpened": "2026-07-14T17:21:18.783Z",
               "EditorCaption": ""
             }
           ]
