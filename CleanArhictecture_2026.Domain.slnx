@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="CleanArhictecture_2026.Application/CleanArhictecture_2026.Application.csproj" />
+    <Project Path="CleanArhictecture_2026.Domain/CleanArhictecture_2026.Domain.csproj" />
+    <Project Path="CleanArhictecture_2026.Infrastructure/CleanArhictecture_2026.Infrastructure.csproj" Id="51613f89-af33-41f9-be0a-b8cf50446aae" />
+  </Folder>
+  <Folder Name="/test/" />
+</Solution>

@@ -1,0 +1,9 @@
+﻿namespace CleanArhictecture_2026.Domain.Employee;
+
+public sealed record Address
+{
+    public string? Country { get; set; }
+    public string? City { get; set; }
+    public string? Town { get; set; }
+    public string? FullAddress { get; set; }
+}
