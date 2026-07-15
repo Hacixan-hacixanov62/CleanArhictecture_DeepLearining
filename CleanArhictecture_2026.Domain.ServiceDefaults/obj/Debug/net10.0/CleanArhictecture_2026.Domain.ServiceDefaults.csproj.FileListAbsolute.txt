@@ -1,0 +1,13 @@
+C:\Users\user\Desktop\CleanArhictecture_2026.Domain\CleanArhictecture_2026.Domain.ServiceDefaults\bin\Debug\net10.0\CleanArhictecture_2026.Domain.ServiceDefaults.deps.json
+C:\Users\user\Desktop\CleanArhictecture_2026.Domain\CleanArhictecture_2026.Domain.ServiceDefaults\bin\Debug\net10.0\CleanArhictecture_2026.Domain.ServiceDefaults.dll
+C:\Users\user\Desktop\CleanArhictecture_2026.Domain\CleanArhictecture_2026.Domain.ServiceDefaults\bin\Debug\net10.0\CleanArhictecture_2026.Domain.ServiceDefaults.pdb
+C:\Users\user\Desktop\CleanArhictecture_2026.Domain\CleanArhictecture_2026.Domain.ServiceDefaults\obj\Debug\net10.0\CleanArhictecture_2026.Domain.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\CleanArhictecture_2026.Domain\CleanArhictecture_2026.Domain.ServiceDefaults\obj\Debug\net10.0\CleanArhictecture_2026.Domain.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\CleanArhictecture_2026.Domain\CleanArhictecture_2026.Domain.ServiceDefaults\obj\Debug\net10.0\CleanArhictecture_2026.Domain.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\CleanArhictecture_2026.Domain\CleanArhictecture_2026.Domain.ServiceDefaults\obj\Debug\net10.0\CleanArhictecture_2026.Domain.ServiceDefaults.AssemblyInfo.cs
+C:\Users\user\Desktop\CleanArhictecture_2026.Domain\CleanArhictecture_2026.Domain.ServiceDefaults\obj\Debug\net10.0\CleanArhictecture_2026.Domain.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\CleanArhictecture_2026.Domain\CleanArhictecture_2026.Domain.ServiceDefaults\obj\Debug\net10.0\CleanArhictecture_2026.Domain.ServiceDefaults.sourcelink.json
+C:\Users\user\Desktop\CleanArhictecture_2026.Domain\CleanArhictecture_2026.Domain.ServiceDefaults\obj\Debug\net10.0\CleanArhictecture_2026.Domain.ServiceDefaults.dll
+C:\Users\user\Desktop\CleanArhictecture_2026.Domain\CleanArhictecture_2026.Domain.ServiceDefaults\obj\Debug\net10.0\refint\CleanArhictecture_2026.Domain.ServiceDefaults.dll
+C:\Users\user\Desktop\CleanArhictecture_2026.Domain\CleanArhictecture_2026.Domain.ServiceDefaults\obj\Debug\net10.0\CleanArhictecture_2026.Domain.ServiceDefaults.pdb
+C:\Users\user\Desktop\CleanArhictecture_2026.Domain\CleanArhictecture_2026.Domain.ServiceDefaults\obj\Debug\net10.0\ref\CleanArhictecture_2026.Domain.ServiceDefaults.dll

@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D6AE21B9-4064-2187-3B7D-23DCBA2901B1}|CleanArhictecture_2026.WebAPI\\CleanArhictecture_2026.WebAPI.csproj|c:\\users\\user\\desktop\\cleanarhictecture_2026.domain\\cleanarhictecture_2026.webapi\\exceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6AE21B9-4064-2187-3B7D-23DCBA2901B1}|CleanArhictecture_2026.WebAPI\\CleanArhictecture_2026.WebAPI.csproj|solutionrelative:cleanarhictecture_2026.webapi\\exceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExceptionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\CleanArhictecture_2026.WebAPI\\ExceptionHandler.cs",
+              "RelativeDocumentMoniker": "CleanArhictecture_2026.WebAPI\\ExceptionHandler.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\CleanArhictecture_2026.WebAPI\\ExceptionHandler.cs*",
+              "RelativeToolTip": "CleanArhictecture_2026.WebAPI\\ExceptionHandler.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T14:54:42.784Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

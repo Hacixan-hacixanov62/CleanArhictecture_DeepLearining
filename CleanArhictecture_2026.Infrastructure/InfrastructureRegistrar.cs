@@ -1,6 +1,7 @@
 ﻿using CleanArhictecture_2026.Domain.Employee;
 using CleanArhictecture_2026.Infrastructure.Context;
 using CleanArhictecture_2026.Infrastructure.Repositories;
+using GenericRepository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -12,12 +13,16 @@ public static class InfrastructureRegistrar
 {
     public static IServiceCollection AddInfrastructure(this IServiceCollection services,IConfiguration configuration)
     {
+        AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
+
         services.AddDbContext<ApplicationDbContext>(opt =>
         {
-            string connectionString = configuration.GetConnectionString("SqlServer")!;
-            opt.UseSqlServer(connectionString);
+            string connectionString = configuration.GetConnectionString("DefaultConnection")!;
+            opt.UseNpgsql(connectionString);
         });
+        services.AddScoped<IUnitOfWork>(srv => srv.GetRequiredService<ApplicationDbContext>());
 
+        
         services.Scan(opt => opt
         .FromAssemblies(typeof(InfrastructureRegistrar).Assembly)
         .AddClasses(publicOnly: false)
@@ -25,6 +30,8 @@ public static class InfrastructureRegistrar
         .AsImplementedInterfaces()
         .WithScopedLifetime()
         );
+
+        services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 
 
         return services;
