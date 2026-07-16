@@ -10,7 +10,7 @@ namespace CleanArhictecture_2026.WebAPI.Controllers;
 
 [Route("odata")]
 [ApiController]
-[EnableQuery] //bu atribut mene query parametrlere gore filterleme, sorting ve paging imkanini verir //folder qurlusu duzeldi bunu soaonrad
+[EnableQuery] //bu atribut mene query parametrlere gore filterleme, sorting ve paging imkanini verir 
 public class AppODataController(
     ISender sender):ODataController
 {
@@ -28,4 +28,6 @@ public class AppODataController(
         var response = await sender.Send(new EmployeeGetAllQuery(), cancellationToken);
         return response;
     }
+
+    
 }

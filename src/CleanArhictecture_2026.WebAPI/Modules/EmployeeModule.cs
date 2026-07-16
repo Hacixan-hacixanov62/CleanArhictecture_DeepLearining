@@ -18,6 +18,20 @@ public static class EmployeeModule
             })
            .Produces<Result<string>>();
 
+        group.MapPut(string.Empty,
+            async (ISender sender, EmployeeEditCommand request, CancellationToken cancellationToken) =>
+            {
+                var response = await sender.Send(request, cancellationToken);
+                return response.IsSuccessful ? Results.Ok(response) : Results.InternalServerError(response);
+            })
+           .Produces<Result<string>>();
+
+        group.MapDelete("/{id:guid}",
+            async (ISender sender, Guid id, CancellationToken cancellationToken) =>
+            {
+                var response = await sender.Send(new EmployeeDeleteCommand(id), cancellationToken);
+                return response.IsSuccessful ? Results.Ok(response) : Results.InternalServerError(response);
+            }) .Produces<Result<string>>();
 
     }
 }

@@ -2,7 +2,6 @@
 using CleanArhictecture_2026.Domain.Employee;
 using GenericRepository;
 using Microsoft.EntityFrameworkCore;
-using System.Security.Claims;
 
 namespace CleanArhictecture_2026.Infrastructure.Context;
 
@@ -16,6 +15,7 @@ internal sealed class ApplicationDbContext : DbContext, IUnitOfWork
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
+        modelBuilder.Entity<Employee>().HasQueryFilter(x => !x.IsDeleted);
     }
 
     public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
