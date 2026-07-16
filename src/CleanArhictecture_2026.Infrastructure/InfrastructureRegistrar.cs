@@ -1,11 +1,14 @@
 ﻿using CleanArhictecture_2026.Domain.Employee;
 using CleanArhictecture_2026.Infrastructure.Context;
+using CleanArhictecture_2026.Infrastructure.Options;
 using CleanArhictecture_2026.Infrastructure.Repositories;
 using GenericRepository;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Scrutor;
+
 
 namespace CleanArhictecture_2026.Infrastructure;
 
@@ -21,7 +24,15 @@ public static class InfrastructureRegistrar
             opt.UseNpgsql(connectionString);
         });
         services.AddScoped<IUnitOfWork>(srv => srv.GetRequiredService<ApplicationDbContext>());
+        
+        services.Configure<JwtOptions>(configuration.GetSection("Jwt"));
+        services.ConfigureOptions<JwtOptionsSetup>();
 
+        services.AddAuthentication(options =>
+        {
+            options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+            options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+        });
         
         services.Scan(opt => opt
         .FromAssemblies(typeof(InfrastructureRegistrar).Assembly)

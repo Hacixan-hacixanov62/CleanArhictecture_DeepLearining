@@ -1,5 +1,6 @@
 ﻿using CleanArhictecture_2026.Application.Employees;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.OData.Query;
 using Microsoft.AspNetCore.OData.Routing.Controllers;
@@ -11,6 +12,7 @@ namespace CleanArhictecture_2026.WebAPI.Controllers;
 [Route("odata")]
 [ApiController]
 [EnableQuery] //bu atribut mene query parametrlere gore filterleme, sorting ve paging imkanini verir 
+
 public class AppODataController(
     ISender sender):ODataController
 {
@@ -29,5 +31,5 @@ public class AppODataController(
         return response;
     }
 
-    
+
 }

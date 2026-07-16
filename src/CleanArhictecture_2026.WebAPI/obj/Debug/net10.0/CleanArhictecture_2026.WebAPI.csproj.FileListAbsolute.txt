@@ -15,6 +15,7 @@ C:\Users\user\Desktop\CleanArhictecture_2026.Domain\src\CleanArhictecture_2026.W
 C:\Users\user\Desktop\CleanArhictecture_2026.Domain\src\CleanArhictecture_2026.WebAPI\bin\Debug\net10.0\Mapster.Core.dll
 C:\Users\user\Desktop\CleanArhictecture_2026.Domain\src\CleanArhictecture_2026.WebAPI\bin\Debug\net10.0\MediatR.dll
 C:\Users\user\Desktop\CleanArhictecture_2026.Domain\src\CleanArhictecture_2026.WebAPI\bin\Debug\net10.0\MediatR.Contracts.dll
+C:\Users\user\Desktop\CleanArhictecture_2026.Domain\src\CleanArhictecture_2026.WebAPI\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\user\Desktop\CleanArhictecture_2026.Domain\src\CleanArhictecture_2026.WebAPI\bin\Debug\net10.0\Microsoft.AspNetCore.OData.dll
 C:\Users\user\Desktop\CleanArhictecture_2026.Domain\src\CleanArhictecture_2026.WebAPI\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\user\Desktop\CleanArhictecture_2026.Domain\src\CleanArhictecture_2026.WebAPI\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -205,3 +206,4 @@ C:\Users\user\Desktop\CleanArhictecture_2026.Domain\src\CleanArhictecture_2026.W
 C:\Users\user\Desktop\CleanArhictecture_2026.Domain\src\CleanArhictecture_2026.WebAPI\obj\Debug\net10.0\CleanArhictecture_2026.WebAPI.pdb
 C:\Users\user\Desktop\CleanArhictecture_2026.Domain\src\CleanArhictecture_2026.WebAPI\obj\Debug\net10.0\CleanArhictecture_2026.WebAPI.genruntimeconfig.cache
 C:\Users\user\Desktop\CleanArhictecture_2026.Domain\src\CleanArhictecture_2026.WebAPI\obj\Debug\net10.0\ref\CleanArhictecture_2026.WebAPI.dll
+C:\Users\user\Desktop\CleanArhictecture_2026.Domain\src\CleanArhictecture_2026.WebAPI\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

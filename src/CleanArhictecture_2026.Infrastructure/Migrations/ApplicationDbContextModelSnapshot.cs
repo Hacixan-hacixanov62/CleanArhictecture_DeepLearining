@@ -32,10 +32,16 @@ namespace CleanArhictecture_2026.Infrastructure.Migrations
                         .HasColumnType("date");
 
                     b.Property<DateTime>("CreateAt")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("timestamp without time zone");
+
+                    b.Property<Guid>("CreateUserId")
+                        .HasColumnType("uuid");
 
                     b.Property<DateTime?>("DeleteAt")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("timestamp without time zone");
+
+                    b.Property<Guid?>("DeleteUserId")
+                        .HasColumnType("uuid");
 
                     b.Property<string>("FirstName")
                         .IsRequired()
@@ -52,11 +58,138 @@ namespace CleanArhictecture_2026.Infrastructure.Migrations
                         .HasColumnType("money");
 
                     b.Property<DateTime?>("UpdateAt")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("timestamp without time zone");
+
+                    b.Property<Guid?>("UpdateUserId")
+                        .HasColumnType("uuid");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Employees", (string)null);
+                    b.ToTable("Employees");
+                });
+
+            modelBuilder.Entity("CleanArhictecture_2026.Domain.Users.AppUser", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<int>("AccessFailedCount")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("CreateAt")
+                        .HasColumnType("timestamp without time zone");
+
+                    b.Property<Guid>("CreateUserId")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime?>("DeleteAt")
+                        .HasColumnType("timestamp without time zone");
+
+                    b.Property<Guid?>("DeleteUserId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Email")
+                        .HasMaxLength(256)
+                        .HasColumnType("text");
+
+                    b.Property<bool>("EmailConfirmed")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasColumnType("varchar(50)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("varchar(50)");
+
+                    b.Property<bool>("LockoutEnabled")
+                        .HasColumnType("boolean");
+
+                    b.Property<DateTimeOffset?>("LockoutEnd")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("NormalizedEmail")
+                        .HasMaxLength(256)
+                        .HasColumnType("character varying(256)");
+
+                    b.Property<string>("NormalizedUserName")
+                        .HasMaxLength(256)
+                        .HasColumnType("character varying(256)");
+
+                    b.Property<string>("PasswordHash")
+                        .HasColumnType("text");
+
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("text");
+
+                    b.Property<bool>("PhoneNumberConfirmed")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("SecurityStamp")
+                        .HasColumnType("text");
+
+                    b.Property<bool>("TwoFactorEnabled")
+                        .HasColumnType("boolean");
+
+                    b.Property<DateTime?>("UpdateAt")
+                        .HasColumnType("timestamp without time zone");
+
+                    b.Property<Guid?>("UpdateUserId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("UserName")
+                        .HasMaxLength(256)
+                        .HasColumnType("varchar(15)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("NormalizedEmail")
+                        .HasDatabaseName("EmailIndex");
+
+                    b.HasIndex("NormalizedUserName")
+                        .IsUnique()
+                        .HasDatabaseName("UserNameIndex");
+
+                    b.HasIndex("UserName")
+                        .IsUnique();
+
+                    b.ToTable("AspNetUsers", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole<System.Guid>", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Name")
+                        .HasMaxLength(256)
+                        .HasColumnType("character varying(256)");
+
+                    b.Property<string>("NormalizedName")
+                        .HasMaxLength(256)
+                        .HasColumnType("character varying(256)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("NormalizedName")
+                        .IsUnique()
+                        .HasDatabaseName("RoleNameIndex");
+
+                    b.ToTable("AspNetRoles", (string)null);
                 });
 
             modelBuilder.Entity("CleanArhictecture_2026.Domain.Employee.Employee", b =>
@@ -84,7 +217,7 @@ namespace CleanArhictecture_2026.Infrastructure.Migrations
 
                             b1.HasKey("EmployeeId");
 
-                            b1.ToTable("Employees", (string)null);
+                            b1.ToTable("Employees");
 
                             b1.WithOwner()
                                 .HasForeignKey("EmployeeId");
@@ -114,13 +247,14 @@ namespace CleanArhictecture_2026.Infrastructure.Migrations
 
                             b1.HasKey("EmployeeId");
 
-                            b1.ToTable("Employees", (string)null);
+                            b1.ToTable("Employees");
 
                             b1.WithOwner()
                                 .HasForeignKey("EmployeeId");
                         });
 
-                    b.Navigation("Address");
+                    b.Navigation("Address")
+                        .IsRequired();
 
                     b.Navigation("PersonalInformation")
                         .IsRequired();

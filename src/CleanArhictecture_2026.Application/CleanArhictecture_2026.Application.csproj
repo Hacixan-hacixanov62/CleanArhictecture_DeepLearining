@@ -12,6 +12,7 @@
     <PackageReference Include="Mapster" Version="10.0.10" />
     <PackageReference Include="MediatR" Version="14.2.0" />
     <PackageReference Include="TS.Result" Version="10.0.0" />
+	<FrameworkReference Include="Microsoft.AspNetCore.App" />  
   </ItemGroup>
 
   <ItemGroup>

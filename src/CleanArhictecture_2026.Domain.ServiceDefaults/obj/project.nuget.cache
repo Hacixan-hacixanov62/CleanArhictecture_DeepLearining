@@ -1,9 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "WaH25XkQwN0=",
+  "dgSpecHash": "wCbIz92pNJY=",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\src\\CleanArhictecture_2026.Domain.ServiceDefaults\\CleanArhictecture_2026.Domain.ServiceDefaults.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\10.0.10\\microsoft.aspnetcore.identity.entityframeworkcore.10.0.10.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.10\\microsoft.entityframeworkcore.10.0.10.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.10\\microsoft.entityframeworkcore.abstractions.10.0.10.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.10\\microsoft.entityframeworkcore.analyzers.10.0.10.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\10.0.10\\microsoft.entityframeworkcore.relational.10.0.10.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.ambientmetadata.application\\10.2.0\\microsoft.extensions.ambientmetadata.application.10.2.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.compliance.abstractions\\10.2.0\\microsoft.extensions.compliance.abstractions.10.2.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection.autoactivation\\10.2.0\\microsoft.extensions.dependencyinjection.autoactivation.10.2.0.nupkg.sha512",
