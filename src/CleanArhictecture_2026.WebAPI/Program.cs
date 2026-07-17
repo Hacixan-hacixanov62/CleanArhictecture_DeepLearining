@@ -1,16 +1,25 @@
 using CleanArhictecture_2026.Application;
 using CleanArhictecture_2026.Domain.Users;
-using CleanArhictecture_2026.Infrastructure.Context;
 using CleanArhictecture_2026.Infrastructure;
+using CleanArhictecture_2026.Infrastructure.Context;
+using CleanArhictecture_2026.Infrastructure.Options;
 using CleanArhictecture_2026.WebAPI;
 using CleanArhictecture_2026.WebAPI.Controllers;
 using CleanArhictecture_2026.WebAPI.Modules;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.OData;
 using Microsoft.AspNetCore.RateLimiting;
+using Microsoft.IdentityModel.Tokens;
 using Scalar.AspNetCore;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddResponseCompression(opt =>
+{
+    opt.EnableForHttps = true;
+});
 
 builder.AddServiceDefaults();
 builder.Services.AddApplication();
@@ -45,6 +54,28 @@ builder.Services.AddIdentity<AppUser, IdentityRole<Guid>>(opt =>
             .AddDefaultTokenProviders()
             .AddSignInManager<SignInManager<AppUser>>();
 
+var jwtOptions = builder.Configuration.GetSection("Jwt").Get<JwtOptions>();
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = jwtOptions!.Issuer,
+        ValidAudience = jwtOptions.Audience,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtOptions.SecretKey)),
+        ClockSkew = TimeSpan.Zero
+    };
+});
+
 builder.Services.AddAuthorization();
 
 builder.Services.AddCors();
@@ -59,9 +90,6 @@ builder.Services.AddRateLimiter(x =>
     }));
 
 builder.Services.AddExceptionHandler<ExceptionHandler>().AddProblemDetails();
-
-//builder.Services.AddAuthentication().AddJwtBearer();
-//builder.Services.AddAuthorization();
 
 var app = builder.Build();
 
@@ -93,7 +121,11 @@ if (app.Environment.IsDevelopment())
 
 app.MapDefaultEndpoints();
 
+app.UseHttpsRedirection(); //https qoumasini aktiv edir.
+
 app.MapControllers().RequireAuthorization();
+
+app.UseResponseCompression();
 
 app.UseExceptionHandler();
 

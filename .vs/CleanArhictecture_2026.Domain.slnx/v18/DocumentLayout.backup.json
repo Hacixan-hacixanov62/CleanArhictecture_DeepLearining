@@ -3,60 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F7E18EF-366A-7D05-B0E8-BC5003593C35}|src\\CleanArhictecture_2026.Infrastructure\\CleanArhictecture_2026.Infrastructure.csproj|c:\\users\\user\\desktop\\cleanarhictecture_2026.domain\\src\\cleanarhictecture_2026.infrastructure\\services\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F7E18EF-366A-7D05-B0E8-BC5003593C35}|src\\CleanArhictecture_2026.Infrastructure\\CleanArhictecture_2026.Infrastructure.csproj|solutionrelative:src\\cleanarhictecture_2026.infrastructure\\services\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F7E18EF-366A-7D05-B0E8-BC5003593C35}|src\\CleanArhictecture_2026.Infrastructure\\CleanArhictecture_2026.Infrastructure.csproj|c:\\users\\user\\desktop\\cleanarhictecture_2026.domain\\src\\cleanarhictecture_2026.infrastructure\\infrastructureregistrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F7E18EF-366A-7D05-B0E8-BC5003593C35}|src\\CleanArhictecture_2026.Infrastructure\\CleanArhictecture_2026.Infrastructure.csproj|solutionrelative:src\\cleanarhictecture_2026.infrastructure\\infrastructureregistrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83073239-B125-754E-6DB8-1EA91509F03F}|src\\CleanArhictecture_2026.WebAPI\\CleanArhictecture_2026.WebAPI.csproj|c:\\users\\user\\desktop\\cleanarhictecture_2026.domain\\src\\cleanarhictecture_2026.webapi\\extensionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83073239-B125-754E-6DB8-1EA91509F03F}|src\\CleanArhictecture_2026.WebAPI\\CleanArhictecture_2026.WebAPI.csproj|solutionrelative:src\\cleanarhictecture_2026.webapi\\extensionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{83073239-B125-754E-6DB8-1EA91509F03F}|src\\CleanArhictecture_2026.WebAPI\\CleanArhictecture_2026.WebAPI.csproj|c:\\users\\user\\desktop\\cleanarhictecture_2026.domain\\src\\cleanarhictecture_2026.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83073239-B125-754E-6DB8-1EA91509F03F}|src\\CleanArhictecture_2026.WebAPI\\CleanArhictecture_2026.WebAPI.csproj|solutionrelative:src\\cleanarhictecture_2026.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54084909-025C-52C4-0E4D-8120A6B1DD9E}|src\\CleanArhictecture_2026.Application\\CleanArhictecture_2026.Application.csproj|c:\\users\\user\\desktop\\cleanarhictecture_2026.domain\\src\\cleanarhictecture_2026.application\\services\\ijwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54084909-025C-52C4-0E4D-8120A6B1DD9E}|src\\CleanArhictecture_2026.Application\\CleanArhictecture_2026.Application.csproj|solutionrelative:src\\cleanarhictecture_2026.application\\services\\ijwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F7E18EF-366A-7D05-B0E8-BC5003593C35}|src\\CleanArhictecture_2026.Infrastructure\\CleanArhictecture_2026.Infrastructure.csproj|c:\\users\\user\\desktop\\cleanarhictecture_2026.domain\\src\\cleanarhictecture_2026.infrastructure\\options\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F7E18EF-366A-7D05-B0E8-BC5003593C35}|src\\CleanArhictecture_2026.Infrastructure\\CleanArhictecture_2026.Infrastructure.csproj|solutionrelative:src\\cleanarhictecture_2026.infrastructure\\options\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83073239-B125-754E-6DB8-1EA91509F03F}|src\\CleanArhictecture_2026.WebAPI\\CleanArhictecture_2026.WebAPI.csproj|c:\\users\\user\\desktop\\cleanarhictecture_2026.domain\\src\\cleanarhictecture_2026.webapi\\modules\\employeemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83073239-B125-754E-6DB8-1EA91509F03F}|src\\CleanArhictecture_2026.WebAPI\\CleanArhictecture_2026.WebAPI.csproj|solutionrelative:src\\cleanarhictecture_2026.webapi\\modules\\employeemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83073239-B125-754E-6DB8-1EA91509F03F}|src\\CleanArhictecture_2026.WebAPI\\CleanArhictecture_2026.WebAPI.csproj|c:\\users\\user\\desktop\\cleanarhictecture_2026.domain\\src\\cleanarhictecture_2026.webapi\\controllers\\appodatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83073239-B125-754E-6DB8-1EA91509F03F}|src\\CleanArhictecture_2026.WebAPI\\CleanArhictecture_2026.WebAPI.csproj|solutionrelative:src\\cleanarhictecture_2026.webapi\\controllers\\appodatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83073239-B125-754E-6DB8-1EA91509F03F}|src\\CleanArhictecture_2026.WebAPI\\CleanArhictecture_2026.WebAPI.csproj|c:\\users\\user\\desktop\\cleanarhictecture_2026.domain\\src\\cleanarhictecture_2026.webapi\\modules\\authmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83073239-B125-754E-6DB8-1EA91509F03F}|src\\CleanArhictecture_2026.WebAPI\\CleanArhictecture_2026.WebAPI.csproj|solutionrelative:src\\cleanarhictecture_2026.webapi\\modules\\authmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83073239-B125-754E-6DB8-1EA91509F03F}|src\\CleanArhictecture_2026.WebAPI\\CleanArhictecture_2026.WebAPI.csproj|c:\\users\\user\\desktop\\cleanarhictecture_2026.domain\\src\\cleanarhictecture_2026.webapi\\modules\\routeregistrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83073239-B125-754E-6DB8-1EA91509F03F}|src\\CleanArhictecture_2026.WebAPI\\CleanArhictecture_2026.WebAPI.csproj|solutionrelative:src\\cleanarhictecture_2026.webapi\\modules\\routeregistrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54084909-025C-52C4-0E4D-8120A6B1DD9E}|src\\CleanArhictecture_2026.Application\\CleanArhictecture_2026.Application.csproj|c:\\users\\user\\desktop\\cleanarhictecture_2026.domain\\src\\cleanarhictecture_2026.application\\auth\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54084909-025C-52C4-0E4D-8120A6B1DD9E}|src\\CleanArhictecture_2026.Application\\CleanArhictecture_2026.Application.csproj|solutionrelative:src\\cleanarhictecture_2026.application\\auth\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F7E18EF-366A-7D05-B0E8-BC5003593C35}|src\\CleanArhictecture_2026.Infrastructure\\CleanArhictecture_2026.Infrastructure.csproj|c:\\users\\user\\desktop\\cleanarhictecture_2026.domain\\src\\cleanarhictecture_2026.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F7E18EF-366A-7D05-B0E8-BC5003593C35}|src\\CleanArhictecture_2026.Infrastructure\\CleanArhictecture_2026.Infrastructure.csproj|solutionrelative:src\\cleanarhictecture_2026.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83073239-B125-754E-6DB8-1EA91509F03F}|src\\CleanArhictecture_2026.WebAPI\\CleanArhictecture_2026.WebAPI.csproj|c:\\users\\user\\desktop\\cleanarhictecture_2026.domain\\src\\cleanarhictecture_2026.webapi\\exceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83073239-B125-754E-6DB8-1EA91509F03F}|src\\CleanArhictecture_2026.WebAPI\\CleanArhictecture_2026.WebAPI.csproj|solutionrelative:src\\cleanarhictecture_2026.webapi\\exceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54084909-025C-52C4-0E4D-8120A6B1DD9E}|src\\CleanArhictecture_2026.Application\\CleanArhictecture_2026.Application.csproj|c:\\users\\user\\desktop\\cleanarhictecture_2026.domain\\src\\cleanarhictecture_2026.application\\employees\\employeecreatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54084909-025C-52C4-0E4D-8120A6B1DD9E}|src\\CleanArhictecture_2026.Application\\CleanArhictecture_2026.Application.csproj|solutionrelative:src\\cleanarhictecture_2026.application\\employees\\employeecreatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,188 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IJwtProvider.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\src\\CleanArhictecture_2026.Application\\Services\\IJwtProvider.cs",
-              "RelativeDocumentMoniker": "src\\CleanArhictecture_2026.Application\\Services\\IJwtProvider.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\src\\CleanArhictecture_2026.Application\\Services\\IJwtProvider.cs",
-              "RelativeToolTip": "src\\CleanArhictecture_2026.Application\\Services\\IJwtProvider.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T15:44:24.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "JwtProvider.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\src\\CleanArhictecture_2026.Infrastructure\\Services\\JwtProvider.cs",
-              "RelativeDocumentMoniker": "src\\CleanArhictecture_2026.Infrastructure\\Services\\JwtProvider.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\src\\CleanArhictecture_2026.Infrastructure\\Services\\JwtProvider.cs",
-              "RelativeToolTip": "src\\CleanArhictecture_2026.Infrastructure\\Services\\JwtProvider.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T15:40:38.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ExtensionMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\src\\CleanArhictecture_2026.WebAPI\\ExtensionMiddleware.cs",
-              "RelativeDocumentMoniker": "src\\CleanArhictecture_2026.WebAPI\\ExtensionMiddleware.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\src\\CleanArhictecture_2026.WebAPI\\ExtensionMiddleware.cs",
-              "RelativeToolTip": "src\\CleanArhictecture_2026.WebAPI\\ExtensionMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T15:35:01.846Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "JwtOptions.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\src\\CleanArhictecture_2026.Infrastructure\\Options\\JwtOptions.cs",
-              "RelativeDocumentMoniker": "src\\CleanArhictecture_2026.Infrastructure\\Options\\JwtOptions.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\src\\CleanArhictecture_2026.Infrastructure\\Options\\JwtOptions.cs",
-              "RelativeToolTip": "src\\CleanArhictecture_2026.Infrastructure\\Options\\JwtOptions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T15:25:07.301Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EmployeeModule.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\src\\CleanArhictecture_2026.WebAPI\\Modules\\EmployeeModule.cs",
-              "RelativeDocumentMoniker": "src\\CleanArhictecture_2026.WebAPI\\Modules\\EmployeeModule.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\src\\CleanArhictecture_2026.WebAPI\\Modules\\EmployeeModule.cs",
-              "RelativeToolTip": "src\\CleanArhictecture_2026.WebAPI\\Modules\\EmployeeModule.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T15:17:10.304Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\src\\CleanArhictecture_2026.WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "src\\CleanArhictecture_2026.WebAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\src\\CleanArhictecture_2026.WebAPI\\Program.cs",
-              "RelativeToolTip": "src\\CleanArhictecture_2026.WebAPI\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAsAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\src\\CleanArhictecture_2026.WebAPI\\Program.cs*",
+              "RelativeToolTip": "src\\CleanArhictecture_2026.WebAPI\\Program.cs*",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAH4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T15:13:21.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "InfrastructureRegistrar.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\src\\CleanArhictecture_2026.Infrastructure\\InfrastructureRegistrar.cs",
-              "RelativeDocumentMoniker": "src\\CleanArhictecture_2026.Infrastructure\\InfrastructureRegistrar.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\src\\CleanArhictecture_2026.Infrastructure\\InfrastructureRegistrar.cs",
-              "RelativeToolTip": "src\\CleanArhictecture_2026.Infrastructure\\InfrastructureRegistrar.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwBYAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T15:02:58.203Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AppODataController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\src\\CleanArhictecture_2026.WebAPI\\Controllers\\AppODataController.cs",
-              "RelativeDocumentMoniker": "src\\CleanArhictecture_2026.WebAPI\\Controllers\\AppODataController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\src\\CleanArhictecture_2026.WebAPI\\Controllers\\AppODataController.cs",
-              "RelativeToolTip": "src\\CleanArhictecture_2026.WebAPI\\Controllers\\AppODataController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T14:59:07.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AuthModule.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\src\\CleanArhictecture_2026.WebAPI\\Modules\\AuthModule.cs",
-              "RelativeDocumentMoniker": "src\\CleanArhictecture_2026.WebAPI\\Modules\\AuthModule.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\src\\CleanArhictecture_2026.WebAPI\\Modules\\AuthModule.cs",
-              "RelativeToolTip": "src\\CleanArhictecture_2026.WebAPI\\Modules\\AuthModule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T14:07:12.446Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RouteRegistrar.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\src\\CleanArhictecture_2026.WebAPI\\Modules\\RouteRegistrar.cs",
-              "RelativeDocumentMoniker": "src\\CleanArhictecture_2026.WebAPI\\Modules\\RouteRegistrar.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\src\\CleanArhictecture_2026.WebAPI\\Modules\\RouteRegistrar.cs",
-              "RelativeToolTip": "src\\CleanArhictecture_2026.WebAPI\\Modules\\RouteRegistrar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T15:28:54.472Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LoginCommand.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\src\\CleanArhictecture_2026.Application\\Auth\\LoginCommand.cs",
-              "RelativeDocumentMoniker": "src\\CleanArhictecture_2026.Application\\Auth\\LoginCommand.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\src\\CleanArhictecture_2026.Application\\Auth\\LoginCommand.cs",
-              "RelativeToolTip": "src\\CleanArhictecture_2026.Application\\Auth\\LoginCommand.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T14:07:24.332Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ExceptionHandler.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\src\\CleanArhictecture_2026.WebAPI\\ExceptionHandler.cs",
-              "RelativeDocumentMoniker": "src\\CleanArhictecture_2026.WebAPI\\ExceptionHandler.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\src\\CleanArhictecture_2026.WebAPI\\ExceptionHandler.cs",
-              "RelativeToolTip": "src\\CleanArhictecture_2026.WebAPI\\ExceptionHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T13:46:02.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "EmployeeCreateCommand.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\src\\CleanArhictecture_2026.Application\\Employees\\EmployeeCreateCommand.cs",
-              "RelativeDocumentMoniker": "src\\CleanArhictecture_2026.Application\\Employees\\EmployeeCreateCommand.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\src\\CleanArhictecture_2026.Application\\Employees\\EmployeeCreateCommand.cs",
-              "RelativeToolTip": "src\\CleanArhictecture_2026.Application\\Employees\\EmployeeCreateCommand.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T13:30:36.61Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\src\\CleanArhictecture_2026.Infrastructure\\Context\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "src\\CleanArhictecture_2026.Infrastructure\\Context\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\src\\CleanArhictecture_2026.Infrastructure\\Context\\ApplicationDbContext.cs",
-              "RelativeToolTip": "src\\CleanArhictecture_2026.Infrastructure\\Context\\ApplicationDbContext.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAEwD8AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T12:24:22.195Z",
+              "WhenOpened": "2026-07-17T10:06:29.645Z",
               "EditorCaption": ""
             }
           ]

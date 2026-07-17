@@ -1,12 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "jA3st6BleHs=",
+  "dgSpecHash": "hNFrpT/jvzU=",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\Desktop\\CleanArhictecture_2026.Domain\\src\\CleanArhictecture_2026.Domain\\CleanArhictecture_2026.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\10.0.10\\microsoft.aspnetcore.cryptography.internal.10.0.10.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\10.0.10\\microsoft.aspnetcore.cryptography.keyderivation.10.0.10.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.http\\2.3.11\\microsoft.aspnetcore.http.2.3.11.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.3.10\\microsoft.aspnetcore.http.abstractions.2.3.10.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.3.9\\microsoft.aspnetcore.http.features.2.3.9.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\10.0.10\\microsoft.aspnetcore.identity.entityframeworkcore.10.0.10.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.3.10\\microsoft.aspnetcore.webutilities.2.3.10.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.10\\microsoft.entityframeworkcore.10.0.10.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.10\\microsoft.entityframeworkcore.abstractions.10.0.10.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.10\\microsoft.entityframeworkcore.analyzers.10.0.10.nupkg.sha512",
@@ -30,9 +34,11 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.identity.stores\\10.0.10\\microsoft.extensions.identity.stores.10.0.10.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging\\10.0.10\\microsoft.extensions.logging.10.0.10.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.10\\microsoft.extensions.logging.abstractions.10.0.10.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.objectpool\\8.0.11\\microsoft.extensions.objectpool.8.0.11.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.options\\10.0.10\\microsoft.extensions.options.10.0.10.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\10.0.10\\microsoft.extensions.options.configurationextensions.10.0.10.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.10\\microsoft.extensions.primitives.10.0.10.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.net.http.headers\\2.3.10\\microsoft.net.http.headers.2.3.10.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\ts.entityframeworkcore.genericrepository\\10.0.0\\ts.entityframeworkcore.genericrepository.10.0.0.nupkg.sha512"
   ],
   "logs": []

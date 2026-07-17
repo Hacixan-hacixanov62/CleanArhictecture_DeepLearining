@@ -27,12 +27,6 @@ public static class InfrastructureRegistrar
         
         services.Configure<JwtOptions>(configuration.GetSection("Jwt"));
         services.ConfigureOptions<JwtOptionsSetup>();
-
-        services.AddAuthentication(options =>
-        {
-            options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-            options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-        });
         
         services.Scan(opt => opt
         .FromAssemblies(typeof(InfrastructureRegistrar).Assembly)

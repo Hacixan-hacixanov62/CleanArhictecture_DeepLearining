@@ -1,4 +1,5 @@
 ﻿using CleanArhictecture_2026.Application.Employees;
+using CleanArhictecture_2026.Domain.Employee;
 using MediatR;
 using TS.Result;
 
@@ -32,6 +33,13 @@ public static class EmployeeModule
                 var response = await sender.Send(new EmployeeDeleteCommand(id), cancellationToken);
                 return response.IsSuccessful ? Results.Ok(response) : Results.InternalServerError(response);
             }) .Produces<Result<string>>();
+
+        group.MapGet(string.Empty,
+            async (ISender sender, Guid id, CancellationToken cancellationToken) =>
+            {
+                var response = await sender.Send(new EmployeeGetByIdQuery(id), cancellationToken);
+                return response.IsSuccessful ? Results.Ok(response) : Results.InternalServerError(response);
+            }).Produces<Result<Employee>>();
 
     }
 }

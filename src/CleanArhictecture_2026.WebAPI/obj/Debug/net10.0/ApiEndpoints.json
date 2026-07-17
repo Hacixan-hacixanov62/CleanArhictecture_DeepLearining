@@ -82,6 +82,33 @@
   },
   {
     "ContainingType": "CleanArhictecture_2026.WebAPI.Modules.EmployeeModule\u002B\u003C\u003Ec",
+    "Method": "\u003CRegisterEmployeeRoutes\u003Eb__0_3",
+    "RelativePath": "employees/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TS.Result.Result\u00601[[CleanArhictecture_2026.Domain.Employee.Employee, CleanArhictecture_2026.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Employees"
+    ]
+  },
+  {
+    "ContainingType": "CleanArhictecture_2026.WebAPI.Modules.EmployeeModule\u002B\u003C\u003Ec",
     "Method": "\u003CRegisterEmployeeRoutes\u003Eb__0_2",
     "RelativePath": "employees/{id:guid}",
     "HttpMethod": "DELETE",
